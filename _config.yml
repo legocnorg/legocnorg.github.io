@@ -1,13 +1,13 @@
 # Site settings
 title: 乐高-非官方组织
-SEOTitle: 参与乐高的讨论和享受乐高的乐趣
+SEOTitle: 乐高-非官方组织
 header-img: img/post-bg-desk.jpg
 email: lego_cn_org@hotmail.com
 description: 用小砖块拼出理想
 keyword: "乐高, 创意"
 url: "https://legocnorg.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/klovien/klovien.github.io.git" # you code repository
+github_repo: "" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -61,7 +61,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: d18b343dd9c7ca49518a                            #生成的clientID
   clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
   repo: klovien.github.io    #仓库名称
